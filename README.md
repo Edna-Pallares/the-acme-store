@@ -19,9 +19,9 @@ createFavorite - creates a favorite in the database and returns the created reco
 
 destroyFavorite - deletes a favorite in the database
 
-Your Express Application (server/index.js) Should Have the Following RESTFUL Routes
+Express Application (server/index.js) Should Have the Following RESTFUL Routes
 
-You can test your routes by using curl or POSTMAN
+Test routes by using curl or POSTMAN
 
 GET /api/users - returns array of users
 
@@ -53,7 +53,7 @@ Product
 
   name (STRING)
 
-  
+
 
 Favorite
   id (UUID)
